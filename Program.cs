@@ -34,6 +34,21 @@
 //   lösenord = Console.ReadLine();
 // }
 
-for (int i = 0; i<5; i++){
+// for (int i = 0; i<5; i++){
+//   Console.WriteLine("Skriv ett nummer");
+//   string nummret = Console.ReadLine();
+//   int siffra;
+//   int.TryParse(nummret, out siffra);
+
+//   if (siffra>=5){
+//     Console.WriteLine("Större en fem");
+//   }
+// }
+
+
+bool success = false;
+
+while (!success){
+  Console.WriteLine("skriv in något som kan konverteras till en siffra");
   
 }

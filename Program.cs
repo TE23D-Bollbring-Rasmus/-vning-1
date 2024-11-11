@@ -49,7 +49,7 @@
 bool success = false;
 
 while (!success){
-  Console.WriteLine("skriv in något som kan konverteras till en string");
+  Console.WriteLine("skriv in något som kan konverteras till en tal");
 
   string detduskriver = Console.ReadLine();
   int sddd;

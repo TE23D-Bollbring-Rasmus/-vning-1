@@ -49,6 +49,10 @@
 bool success = false;
 
 while (!success){
-  Console.WriteLine("skriv in något som kan konverteras till en siffra");
-  
+  Console.WriteLine("skriv in något som kan konverteras till en string");
+
+  string detduskriver = Console.ReadLine();
+  int sddd;
+
+  success = int.TryParse(detduskriver, out sddd);
 }

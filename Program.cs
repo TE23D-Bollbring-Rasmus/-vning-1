@@ -27,7 +27,13 @@
 
 // Console.ReadLine();
 
-Console.WriteLine("Skriv in lösenordet");
-string lösenord = Console.ReadLine();
+// Console.WriteLine("Skriv in lösenordet");
+// string lösenord = Console.ReadLine();
 
-while ()
+// while (lösenord != "lösenord"){
+//   lösenord = Console.ReadLine();
+// }
+
+for (int i = 0; i<5; i++){
+  
+}

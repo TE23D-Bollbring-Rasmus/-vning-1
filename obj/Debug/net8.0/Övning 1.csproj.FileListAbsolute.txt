@@ -12,3 +12,4 @@ C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Övningar\Övning 1\Övni
 C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Övningar\Övning 1\Övning 1\obj\Debug\net8.0\Övning 1.pdb
 C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Övningar\Övning 1\Övning 1\obj\Debug\net8.0\Övning 1.genruntimeconfig.cache
 C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Övningar\Övning 1\Övning 1\obj\Debug\net8.0\ref\Övning 1.dll
+C:\Users\rasmus.mattssonboll\Documents\Programmering 1\Övningar\Övning 1\Övning 1\obj\Debug\net8.0\Övning 1.sourcelink.json

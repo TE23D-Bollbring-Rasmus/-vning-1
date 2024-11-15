@@ -57,12 +57,35 @@
 //   success = int.TryParse(detduskriver, out sddd);
 // }
 
-// int siffran;
-// int siffran2 = 0;
+int siffran;
+siffran = Random.Shared.Next(0, 100);
 
-// siffran = Random.Shared.Next(0,100);
+int ditttal = 0;
 
-// while (siffran != siffran2){
-//   Console.WriteLine("Gissa en siffra");
-  
-// }
+while (siffran != ditttal)
+{
+  bool korrekt = false;
+
+  while (!korrekt)
+  {
+    Console.WriteLine("Gissa en siffra");
+    string dinsiffra = Console.ReadLine();
+    korrekt = int.TryParse(dinsiffra, out ditttal);
+  }
+  if (ditttal > siffran)
+  {
+    Console.WriteLine("för stort");
+  }
+  else if (ditttal < siffran)
+  {
+    Console.WriteLine("för litet");
+  }
+  else
+  {
+    Console.WriteLine("Korrekt!");
+    korrekt = true;
+  }
+}
+
+
+Console.ReadLine();

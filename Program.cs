@@ -46,13 +46,23 @@
 // }
 
 
-bool success = false;
+// bool success = false;
 
-while (!success){
-  Console.WriteLine("skriv in något som kan konverteras till en tal");
+// while (!success){
+//   Console.WriteLine("skriv in något som kan konverteras till en tal");
 
-  string detduskriver = Console.ReadLine();
-  int sddd;
+//   string detduskriver = Console.ReadLine();
+//   int sddd;
 
-  success = int.TryParse(detduskriver, out sddd);
-}
+//   success = int.TryParse(detduskriver, out sddd);
+// }
+
+// int siffran;
+// int siffran2 = 0;
+
+// siffran = Random.Shared.Next(0,100);
+
+// while (siffran != siffran2){
+//   Console.WriteLine("Gissa en siffra");
+  
+// }
